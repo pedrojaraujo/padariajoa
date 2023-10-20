@@ -1,0 +1,24 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Josefin Slab */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Colors */
+    --blue: #2750B2;
+    --brown: #5F4948;
+    --white: #FFFFFF;
+    --white2: #FEF8F0;
+    --brown2: #483433;
+    --lightgray: #EEEEEE;
+    --gray: #9C9C9C;
+    /* Font  Family */
+    --default-font: "Montserrat", sans-serif;
+    --secondary-font: "Josefin Slab", sans-serif;
+    /* Font Size */
+    --normal-font: 24px;
+    --medium-font: 28px;
+    --big-font: 32px;
+    --large-font: 64px;
+
+}
