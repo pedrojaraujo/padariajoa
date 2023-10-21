@@ -1,0 +1,32 @@
+.nav__container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue);
+    align-items: center;
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    color: var(--white2);
+    height: 250px;
+}
+
+.logo__container {
+    margin-inline: 100px;
+}
+
+.list__container {
+    padding-top: 25px;
+}
+
+.list__container ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.list__container ul li a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    color: var(--white2);
+    font-size: var(--normal-font);
+}

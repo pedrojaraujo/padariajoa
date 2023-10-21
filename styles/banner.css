@@ -1,0 +1,24 @@
+.banner__container {
+    background-image: url("../public/images/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+   
+}
+
+.banner__container div {
+    width: 795px;
+    margin: auto;
+}
+
+.banner__container h2 {
+   margin: 0;
+   font-family: var(--secondary-font);
+   font-size: var(--large-font);
+   color: var(--white);
+}
+
