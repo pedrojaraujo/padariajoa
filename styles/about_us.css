@@ -1,0 +1,44 @@
+.container__about{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 850px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: var(--white2);
+   
+
+}
+
+.about__picture{
+    width: 500px;
+    height: 540px;
+    padding: 90px;
+}
+
+.titex__about__container{
+    width: 600px;
+    height: 450px;
+    
+    
+}
+
+.title__about{
+    color: var(--blue);
+    font-weight: bold;
+    width: 600px;
+    height: 62px;
+    font-family: var(--secondary-font);
+    font-size: 35px;
+    
+
+}
+
+.text__about{
+   
+    color: var(--blue);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -5,6 +5,7 @@
 
 @import url("header.css");
 @import url("banner.css");
+@import url("about_us.css");
 
 :root {
     /* Colors */
@@ -33,6 +34,3 @@ body {
     box-sizing: border-box;
 }
 
-.button {
-    
-}
