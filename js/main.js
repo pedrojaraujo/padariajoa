@@ -51,4 +51,4 @@ function gridProduct() {
     containerGrid.innerHTML = html;
 }
 
-gridProduct();
+gridProduct()
