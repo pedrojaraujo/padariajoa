@@ -6,6 +6,8 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("about_us.css");
+@import url("menu.css");
+
 
 :root {
     /* Colors */
@@ -33,4 +35,3 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-

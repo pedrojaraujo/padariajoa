@@ -13,17 +13,17 @@
     margin-inline: 100px;
 }
 
-.list__container {
+.list__container__nav {
     padding-top: 25px;
 }
 
-.list__container ul {
+.list__container__nav ul {
     display: flex;
     gap: 25px;
     list-style: none;
 }
 
-.list__container ul li a {
+.list__container__nav ul li a {
     text-decoration: none;
     font-family: var(--secondary-font);
     font-weight: bolder;
