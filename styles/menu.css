@@ -6,9 +6,9 @@
     font-family: var(--default-font);
     font-size: var(--big-font2);
     font-family: var(--secondary-font);
-    width: 1200px;
+    width: 100%;
     margin: auto;
-   
+    background-color: var(--white2);
 }
 
 .container__menu h2 {
@@ -44,4 +44,16 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 25px;
     margin-top: 2%;
+}
+
+.name__product {
+    font-size: var(--normal-font);
+    background-color: var(--white2);
+    width: auto;
+    height: 20px;
+    position: relative;
+    bottom: 80px;
+    left: 15px;
+    z-index: 2;
+    padding: 5px;
 }

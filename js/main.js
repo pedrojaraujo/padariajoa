@@ -12,32 +12,32 @@ const products = [
   {
     id: 3,
     url: "public/images/products/Product3.png",
-    name: "Croassaint",
+    name: "Pão de forma",
   },
   {
     id: 4,
     url: "public/images/products/Product4.png",
-    name: "Croassaint",
+    name: "Pão Fermentado",
   },
   {
     id: 5,
     url: "public/images/products/Product5.png",
-    name: "Croassaint",
+    name: "Pão Caseiro",
   },
   {
     id: 6,
     url: "public/images/products/Product6.png",
-    name: "Croassaint",
+    name: "Pão de Gergelin",
   },
   {
     id: 7,
     url: "public/images/products/Product7.png",
-    name: "Croassaint",
+    name: "Pão fermentado",
   },
   {
     id: 8,
     url: "public/images/products/Product8.png",
-    name: "Croassaint",
+    name: "",
   },
 ];
 
@@ -45,7 +45,10 @@ function gridProduct() {
   let html = "";
   const containerGrid = document.querySelector(".container__grid");
   products.map((product) => {
-    let hmtlAdd = `<img src=${product.url} alt="product1">`;
+    let hmtlAdd = `<div> 
+                    <img src=${product.url} alt="product1">
+                    <p class="name__product">${product.name}</p>
+                  </div>`;
     html += hmtlAdd;
   });
   containerGrid.innerHTML = html;

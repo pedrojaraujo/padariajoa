@@ -1,43 +1,41 @@
 .banner__container {
-    background-image: url("../public/images/Banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 950px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Alinha horizontalmente no centro */
+  background-image: url("../public/images/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Alinha horizontalmente no centro */
 }
 
 .banner__container div {
-    width: 795px;
-    margin:auto ;
+  width: 795px;
+  margin: auto;
 }
 
 .banner__container h2 {
-   margin: 0;
-   font-family: var(--secondary-font);
-   font-size: var(--large-font);
-   color: var(--white);
+  margin: 0;
+  font-family: var(--secondary-font);
+  font-size: var(--large-font);
+  color: var(--white);
+  margin-bottom: 100px;
 }
 
-  .banner__container div {
-    text-align: center;      
-  }
-  
-  .button {
-    margin-top: 30px;
-    width:291px ;
-    height: 67px;       
-    border: none;
-    border-radius: 8px;
-    background-color: var(--blue);
-  }
+.banner__container div {
+  text-align: center;
+}
 
-  .button a{
-    font-family: var(--default-font);
-    color: var(--white);
-    font-size:medium;
-    text-decoration: none;
-  }
+.button {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: var(--blue);
+  font-family: var(--default-font);
+  color: var(--white);
+  font-size: var(--big-font);
+  text-decoration: none;
+  padding: 30px;
+
+}

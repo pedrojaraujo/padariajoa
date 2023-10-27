@@ -7,6 +7,10 @@
     font-weight: bolder;
     color: var(--white2);
     height: 210px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 .logo__container {
@@ -29,4 +33,5 @@
     font-weight: bolder;
     color: var(--white2);
     font-size: var(--normal-font);
+    cursor: pointer;
 }
