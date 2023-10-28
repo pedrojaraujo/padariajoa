@@ -35,11 +35,9 @@
   border: none;
   border-radius: 8px;
   background-color: var(--blue);
-}
-
-.button a {
   font-family: var(--default-font);
   color: var(--white);
   font-size: medium;
   text-decoration: none;
+  padding: 15px;
 }
