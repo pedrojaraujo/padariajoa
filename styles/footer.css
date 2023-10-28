@@ -1,82 +1,76 @@
-.container__footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--white2);
-    align-items: center;
-    font-family: var(--secondary-font);
-    font-weight: bolder;
-    text-align: center;
-    height: 280px;
+.container__footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--white2);
+  align-items: center;
+  font-family: var(--secondary-font);
+  font-weight: bolder;
+  text-align: center;
+  height: 280px;
 }
-.titles__container{
-    text-align: center;
-    color: var(--blue);
-    width: 400px ;
+.titles__container {
+  text-align: center;
+  color: var(--blue);
+  width: 400px;
 }
 
 .listfooter__container1 h2 {
-    text-align: center;
-    font-size: var(--medium-font);
+  text-align: center;
+  font-size: var(--medium-font);
 }
 
 .listfooter__container1 ul {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .listfooter__container1 ul li a {
-    text-decoration: none;
-    color: var(--blue);
-    font-size: var(--small-font);
+  text-decoration: none;
+  color: var(--blue);
+  font-size: var(--small-font);
 }
 
-
-.listfooter__container1{
-    margin-top: 25px;
-   
+.listfooter__container1 {
+  margin-top: 25px;
 }
 
-.listfooter__container2{
-    color: var(--blue);
-   
-    
-    
+.listfooter__container2 {
+  color: var(--blue);
 }
 .listfooter__container2 h2 {
-    text-align: center;
-    font-size: var(--medium-font);
+  text-align: center;
+  font-size: var(--medium-font);
 }
 
 .listfooter__container2 ul {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.listfooter__container2 ul li {
-    text-decoration: none;
-    color: var(--blue);
-    font-size: var(--small-font);
-    
+.listfooter__container2 ul li a {
+  text-decoration: none;
+  color: var(--blue);
+  font-size: var(--small-font);
 }
-.logofooter__class{
-    width: 200px;
-    height: 200px;
+.logofooter__class {
+  width: 200px;
+  height: 200px;
 }
 
-.button__loc{
-    background-color: var(--blue);
-    border-radius: 8px;
-    border: none;
-    width: 150px;
-    height: 45px;
-    margin-top: 20px;
+.button__loc {
+  background-color: var(--blue);
+  border-radius: 8px;
+  border: none;
+  width: 150px;
+  height: 45px;
+  margin-top: 20px;
 }
-.button__loc a{
-color: var(--white2);
-font-size: var(--small-font);
-text-decoration: none;
+.button__loc a {
+  color: var(--white2);
+  font-size: var(--small-font);
+  text-decoration: none;
 }
