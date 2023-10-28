@@ -2,13 +2,16 @@
 .container_novidades{
     background-image: url("../public/images/paozinho.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: auto;
 
     height: 52em;
+    width: 100%;
 
 }
 
@@ -19,11 +22,14 @@
 .novidades_textos{
     color: white;
 
-    align-items: flex-start;
+    align-items:center;
+    justify-content: center;
+
+    margin-top: 140px;
 
     font-family: 'Montserrat';
 
-    width: 65%;
+    width: 50%;
 }
 
 .novidades_textos h4{
@@ -37,9 +43,9 @@
 }
 
 .novidades_form{    
-    width: 65%;
+    width: 50%;
 
-    margin: 30px;
+    margin: auto;
 }
 
 .novidades_form{
@@ -51,7 +57,7 @@
 }
 
 .novidades_form  input{
-    width: 50%;
+    width: 70%;
     margin-bottom: 15px;
     padding: 20px;
     border: none;
@@ -79,7 +85,7 @@
     font-family: "Montserrat";
     font-size: 20px;
 
-    background-color: blue;
+    background-color:var(--blue);
     color: white;
 }
 
