@@ -21,6 +21,7 @@
     --default-font: "Montserrat", sans-serif;
     --secondary-font: "Josefin Slab", sans-serif;
     /* Font Size */
+    --small-font: 20px;
     --normal-font: 24px;
     --medium-font: 28px;
     --big-font: 32px;

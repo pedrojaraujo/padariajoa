@@ -5,7 +5,7 @@
     align-items: center;
     font-family: var(--secondary-font);
     font-weight: bolder;
-    color: var(--blue);
+    text-align: center;
     height: 280px;
 }
 .titles__container{
@@ -16,6 +16,7 @@
 
 .listfooter__container1 h2 {
     text-align: center;
+    font-size: var(--medium-font);
 }
 
 .listfooter__container1 ul {
@@ -28,14 +29,24 @@
 .listfooter__container1 ul li a {
     text-decoration: none;
     color: var(--blue);
+    font-size: var(--small-font);
 }
+
 
 .listfooter__container1{
-    margin-top: 50px;
+    margin-top: 25px;
+   
 }
 
+.listfooter__container2{
+    color: var(--blue);
+   
+    
+    
+}
 .listfooter__container2 h2 {
     text-align: center;
+    font-size: var(--medium-font);
 }
 
 .listfooter__container2 ul {
@@ -45,11 +56,27 @@
     margin: 0;
 }
 
-.listfooter__container2 ul li a {
+.listfooter__container2 ul li {
     text-decoration: none;
     color: var(--blue);
+    font-size: var(--small-font);
+    
 }
 .logofooter__class{
     width: 200px;
     height: 200px;
+}
+
+.button__loc{
+    background-color: var(--blue);
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+}
+.button__loc a{
+color: var(--white2);
+font-size: var(--small-font);
+text-decoration: none;
 }
