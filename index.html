@@ -1,75 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/globalstyles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/globalstyles.css" />
     <title>Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="headerStart" class="header__container">
-        <nav class="nav__container">
-            <div class="list__container__nav">
-                <ul>
-                    <li><a href="#headerStart">Início</a></li>
-                    <li><a href="#about">Sobre Nós</a></li>
-                </ul>
-            </div>
-            <div class="logo__container">
-                <img class="logo__class" src="public/images/logo.svg"
-                    alt="Logo com um pão desenhado e escrito o nome da padaria 'Padaria Joa'">
-            </div>
-            <div class="list__container__nav">
-                <ul>
-                    <li><a href="#gridProduct">Produtos</a></li>
-                    <li><a href="#">Contatos</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav__container">
+        <div class="list__container__nav">
+          <ul>
+            <li><a href="#headerStart">Início</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="logo__container">
+          <img
+            class="logo__class"
+            src="public/images/logo.svg"
+            alt="Logo com um pão desenhado e escrito o nome da padaria 'Padaria Joa'"
+          />
+        </div>
+        <div class="list__container__nav">
+          <ul>
+            <li><a href="#gridProduct">Produtos</a></li>
+            <li><a href="#">Contatos</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="banner__container">
-            <div>
-                <h2>"O melhor jeito de começar o dia é com um sorriso e um pãozinho quentinho.”</h2>
+      <section class="banner__container">
+        <div>
+          <h2>
+            "O melhor jeito de começar o dia é com um sorriso e um pãozinho
+            quentinho.”
+          </h2>
 
-                <a class="button" href="#gridProduct">Veja nossos cardápios!</a>
+          <a class="button" href="#gridProduct">Veja nossos cardápios!</a>
+        </div>
+      </section>
+      <section class="container__menu">
+        <h2>Nosso cardápio</h2>
+        <ul class="list__container_menu">
+          <li><button class="button__Bread">Pães</button></li>
+          <li><button class="button__Sweets">Doces</button></li>
+          <li><button class="button__Snacks">Salgados</button></li>
+          <li><button class="button__Sandwich">Lanches</button></li>
+        </ul>
 
-            </div>
-        </section>
-        <section class="container__menu">
-            <h2>Nosso cardápio</h2>
-            <ul class="list__container_menu">
-                <li><a href="">Pães</a></li>
-                <li><a href="">Doces</a></li>
-                <li><a href="">Salgados</a></li>
-                <li><a href="">Lanches</a></li>
-            </ul>
+        <div id="gridProduct" class="container__grid"></div>
+      </section>
 
-            <div id="gridProduct" class="container__grid">
-
-            </div>
-        </section>
-
-        <section id="about" class="container__about">
-
-            <img class="about__picture" src="public/images/mosaico.png" alt="Mosaico de fotos da padaria">
-            <div class="titex__about__container">
-                <h2 class="title__about">Um pedaço de Portugal em São Paulo</h2>
-                <p class="text__about">A Padaria Joá é um lugar especial em São Paulo. Fundada em 1962 por Seu João,
-                    um português que trouxe seus segredos de pão para a cidade, a padaria se tornou um ponto de encontro
-                    para famílias e amigos.</p>
-                <p class="text__about">O pão da Joá é feito com ingredientes frescos e de alta qualidade, e é assado no
-                    forno a lenha. A
-                    padaria também oferece uma variedade de bolos e doces, que são preparados com amor e carinho.</p>
-                <p class="text__about">A Joá é mais do que uma padaria. É um lugar onde o passado e o presente se
-                    misturam, e onde o amor e a comida sempre estão presentes. É um pedaço de Portugal em São Paulo.</p>
-            </div>
-
-        </section>
+      <section id="about" class="container__about">
+        <img
+          class="about__picture"
+          src="public/images/mosaico.png"
+          alt="Mosaico de fotos da padaria"
+        />
+        <div class="titex__about__container">
+          <h2 class="title__about">Um pedaço de Portugal em São Paulo</h2>
+          <p class="text__about">
+            A Padaria Joá é um lugar especial em São Paulo. Fundada em 1962 por
+            Seu João, um português que trouxe seus segredos de pão para a
+            cidade, a padaria se tornou um ponto de encontro para famílias e
+            amigos.
+          </p>
+          <p class="text__about">
+            O pão da Joá é feito com ingredientes frescos e de alta qualidade, e
+            é assado no forno a lenha. A padaria também oferece uma variedade de
+            bolos e doces, que são preparados com amor e carinho.
+          </p>
+          <p class="text__about">
+            A Joá é mais do que uma padaria. É um lugar onde o passado e o
+            presente se misturam, e onde o amor e a comida sempre estão
+            presentes. É um pedaço de Portugal em São Paulo.
+          </p>
+        </div>
+      </section>
     </main>
-    <script src="js/main.js"></script>
-</body>
-
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>

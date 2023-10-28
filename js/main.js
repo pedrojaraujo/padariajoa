@@ -1,57 +1,52 @@
-const products = [
-  {
-    id: 1,
-    url: "public/images/products/Product1.png",
-    name: "Croassaint",
-  },
-  {
-    id: 2,
-    url: "public/images/products/Product2.png",
-    name: "Croassaint",
-  },
-  {
-    id: 3,
-    url: "public/images/products/Product3.png",
-    name: "Pão de forma",
-  },
-  {
-    id: 4,
-    url: "public/images/products/Product4.png",
-    name: "Pão Fermentado",
-  },
-  {
-    id: 5,
-    url: "public/images/products/Product5.png",
-    name: "Pão Caseiro",
-  },
-  {
-    id: 6,
-    url: "public/images/products/Product6.png",
-    name: "Pão de Gergelin",
-  },
-  {
-    id: 7,
-    url: "public/images/products/Product7.png",
-    name: "Pão fermentado",
-  },
-  {
-    id: 8,
-    url: "public/images/products/Product8.png",
-    name: "",
-  },
-];
+import { tipos } from "./data/db.js";
+
+const { paes, doces, salgados, lanches } = tipos;
+
+let products = [];
 
 function gridProduct() {
   let html = "";
   const containerGrid = document.querySelector(".container__grid");
-  products.map((product) => {
+  products.map((objt) => {
     let hmtlAdd = `<div> 
-                    <img src=${product.url} alt="product1">
-                    <p class="name__product">${product.name}</p>
+                    <img src=${objt.url} alt="product1">
+                    <p class="name__product">${objt.name}</p>
                   </div>`;
     html += hmtlAdd;
   });
   containerGrid.innerHTML = html;
 }
 
-gridProduct();
+function updateProducts(array) {
+  products.length = 0;
+  products.push(...array);
+  gridProduct();
+}
+
+updateProducts(paes);
+
+document.querySelector(".button__Bread").addEventListener("click", () => {
+  updateProducts(paes);
+});
+document.querySelector(".button__Sweets").addEventListener("click", () => {
+  updateProducts(doces);
+});
+
+document.querySelector(".button__Snacks").addEventListener("click", () => {
+  updateProducts(salgados);
+});
+
+document.querySelector(".button__Sandwich").addEventListener("click", () => {
+  updateProducts(lanches);
+});
+
+const buttons = document.querySelectorAll(
+  ".button__Bread, .button__Sweets, .button__Snacks, .button__Sandwich"
+);
+
+buttons.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    buttons.forEach((btn) => btn.classList.remove("clicado"));
+    event.target.classList.add("clicado");
+  });
+});
