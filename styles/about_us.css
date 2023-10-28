@@ -1,4 +1,4 @@
-.container__about{
+.container__about {
     display: flex;
     text-align: center;
     width: 100%;
@@ -7,38 +7,38 @@
     margin: auto;
     align-items: center;
     background-color: var(--white2);
-   
+
 
 }
 
-.about__picture{
+.about__picture {
     width: 500px;
     height: 540px;
     padding: 90px;
 }
 
-.titex__about__container{
+.titex__about__container {
     width: 600px;
     height: 450px;
-    
-    
+
+
 }
 
-.title__about{
+.title__about {
     color: var(--blue);
     font-weight: bold;
-    width: 600px;
+    width: 650px;
     height: 62px;
     font-family: var(--secondary-font);
-    font-size: 35px;
-    
+    font-size: var(--big-font2);
+
 
 }
 
-.text__about{
-   
+.text__about {
+
     color: var(--blue);
     font-family: var(--secondary-font);
     font-weight: 500;
-    font-size: 20px;
+    font-size: var(--normal-font);
 }
