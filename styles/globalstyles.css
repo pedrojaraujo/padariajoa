@@ -23,22 +23,24 @@
   --default-font: "Montserrat", sans-serif;
   --secondary-font: "Josefin Slab", sans-serif;
   /* Font Size */
-  --small-font: 20px;
-  --normal-font: 24px;
+  --small-font: 0.8rem;
+  --normal-font: 1.6rem;
   --medium-font: 28px;
   --big-font: 32px;
   --big-font2: 40px;
   --large-font: 64px;
 }
 
+html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   box-sizing: border-box;
   position: relative;
   overflow-y: visible;
 }
 
-main {
+.main__container {
   background-color: var(--white2);
 }
