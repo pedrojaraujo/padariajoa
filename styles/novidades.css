@@ -1,88 +1,71 @@
 .container_novidades {
-    background-image: url("../public/images/paozinho.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 52em;
-    width: 80%;
-    margin: auto;
+  background-image: url("../public/images/paozinho.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 49em;
 }
 
-
-
 .novidades_textos {
-    color: white;
-
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 140px;
-
-    font-family: 'Montserrat';
-
-    width: 50%;
+  color: white;
+  align-items: flex-start;
+  font-family: "Montserrat";
+  width: 60%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .novidades_textos h4 {
-
-    font-size: 2.2em;
+  font-size: 2.2em;
 }
 
 .novidades_textos p {
-    font-size: 1.3em;
-    white-space: inherit;
+  font-size: 1.3em;
+  white-space: inherit;
 }
 
 .novidades_form {
-    width: 50%;
-
-    margin: auto;
+  width: 65%;
+  margin: 30px;
 }
 
 .novidades_form {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: flex-start;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.novidades_form input {
-    width: 70%;
-    margin-bottom: 15px;
-    padding: 20px;
-    border: none;
-    border-radius: 10px;
-
+.novidades_input {
+  width: 40%;
+  margin-bottom: 15px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 2rem;
 }
 
-.novidades_form input::placeholder {
-    font-family: "Montserrat";
-    font-size: 20px;
-
-    align-items: center;
+.novidades_input::placeholder {
+  font-family: "Montserrat";
+  font-size: var(--small-font);
+  align-items: center;
 }
 
-
-
-.novidades_form button {
-    width: 20em;
-
-    padding: 20px;
-
-    border-radius: 10px;
-    border: none;
-
-    font-family: "Montserrat";
-    font-size: 20px;
-
-    background-color: var(--blue);
-    color: white;
+.novidades_button {
+  width: 43.5%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat";
+  font-size: var(--small-font);
+  background-color: var(--blue);
+  color: white;
 }
 
-.novidades_form button:hover {
-    cursor: pointer;
+.novidades_button:hover {
+  cursor: pointer;
 }
