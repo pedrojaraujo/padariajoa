@@ -6,7 +6,7 @@
   font-family: var(--secondary-font);
   font-weight: bolder;
   text-align: center;
-  height: 280px;
+  height: 12rem;
 }
 .titles__container {
   text-align: center;
@@ -29,7 +29,7 @@
 .listfooter__container1 ul li a {
   text-decoration: none;
   color: var(--blue);
-  font-size: var(--small-font);
+  font-size: 1rem;
 }
 
 .listfooter__container1 {
@@ -54,11 +54,10 @@
 .listfooter__container2 ul li a {
   text-decoration: none;
   color: var(--blue);
-  font-size: var(--small-font);
+  font-size: 1rem;
 }
-.logofooter__class {
-  width: 200px;
-  height: 200px;
+.logo__footer {
+  width: 50%;
 }
 
 .button__loc {
@@ -66,11 +65,11 @@
   border-radius: 8px;
   border: none;
   width: 150px;
-  height: 45px;
+  height: 35px;
   margin-top: 20px;
 }
 .button__loc a {
   color: var(--white2);
-  font-size: var(--small-font);
+  font-size: 0.9rem;
   text-decoration: none;
 }

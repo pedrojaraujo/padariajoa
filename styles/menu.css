@@ -54,6 +54,9 @@
   margin-top: 2%;
 }
 
+.container__grid img {
+  width: 230px;
+}
 .name__product {
   font-size: var(--normal-font);
   background-color: var(--white2);
