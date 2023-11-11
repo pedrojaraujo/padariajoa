@@ -1,64 +1,53 @@
 .container__footer {
+  width: 100%;
+  height: 10rem;
   display: flex;
   justify-content: space-around;
-  background-color: var(--white2);
   align-items: center;
-  font-family: var(--secondary-font);
-  font-weight: bolder;
-  text-align: center;
-  height: 12rem;
+  overflow: hidden;
+  font-family: var(--default-font);
 }
+
 .titles__container {
   text-align: center;
+  font-size: 1.4rem;
+}
+
+.container__listTwo__footer, .container__listOne__footer {
   color: var(--blue);
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.listfooter__container1 h2 {
+.container__listOne__footer ul, .container__listTwo__footer ul {
   text-align: center;
-  font-size: var(--medium-font);
-}
-
-.listfooter__container1 ul {
-  text-align: center;
+  align-items: center;
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.listfooter__container1 ul li a {
-  text-decoration: none;
-  color: var(--blue);
-  font-size: 1rem;
+.container__listTwo__footer ul li  {
+  font-size: 0.8rem;
 }
 
-.listfooter__container1 {
-  margin-top: 25px;
+.container__listOne__footer ul {
+  display: flex;
+  gap: 2rem;
 }
 
-.listfooter__container2 {
-  color: var(--blue);
-}
-.listfooter__container2 h2 {
-  text-align: center;
-  font-size: var(--medium-font);
+.container__listOne__footer ul li a {
+  font-size: 2.5rem;
 }
 
-.listfooter__container2 ul {
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.container__listTwo__footer ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
 }
 
-.listfooter__container2 ul li a {
-  text-decoration: none;
-  color: var(--blue);
-  font-size: 1rem;
-}
-.logo__footer {
-  width: 50%;
-}
 
 .button__loc {
   background-color: var(--blue);
@@ -66,8 +55,9 @@
   border: none;
   width: 150px;
   height: 35px;
-  margin-top: 20px;
+
 }
+
 .button__loc a {
   color: var(--white2);
   font-size: 0.9rem;

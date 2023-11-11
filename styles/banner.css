@@ -8,8 +8,9 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  height: 58rem;
+  height: 49rem;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .banner__container div {

@@ -34,11 +34,7 @@ const paes = [
     url: "public/images/products/Product7.png",
     name: "Pão fermentado",
   },
-  {
-    id: 8,
-    url: "public/images/products/Product8.png",
-    name: "",
-  },
+  
 ];
 
 const doces = [
@@ -77,11 +73,7 @@ const doces = [
     url: "public/images/products/Product15.png",
     name: "Torta",
   },
-  {
-    id: 8,
-    url: "public/images/products/Product8.png",
-    name: "",
-  },
+
 ];
 
 const salgados = [
@@ -120,11 +112,7 @@ const salgados = [
     url: "public/images/products/Product22.png",
     name: "Bolinho de Bacalhau",
   },
-  {
-    id: 8,
-    url: "public/images/products/Product8.png",
-    name: "",
-  },
+
 ];
 
 const lanches = [
@@ -163,11 +151,7 @@ const lanches = [
     url: "public/images/products/Product29.png",
     name: "Queijo Quente",
   },
-  {
-    id: 8,
-    url: "public/images/products/Product8.png",
-    name: "",
-  },
+
 ];
 
 export const tipos = {

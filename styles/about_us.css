@@ -1,12 +1,12 @@
 .container__about {
   display: flex;
   text-align: center;
+  align-items: center;
   width: 100%;
-  height: 700px;
+  height: 49rem;
   justify-content: center;
-  margin: auto;
-  align-items: top;
   background-color: var(--white2);
+  overflow: hidden;
 }
 
 .about__picture {
@@ -33,5 +33,5 @@
   color: var(--blue);
   font-family: var(--secondary-font);
   font-weight: 500;
-  font-size: var(--normal-font);
+  font-size: var(--small-font);
 }
