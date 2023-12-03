@@ -73,3 +73,40 @@
 .novidades_button:hover {
   cursor: pointer;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  .container_novidades {
+    height: auto;
+    background-size: auto;
+  }
+
+  .novidades_textos {
+    width: 80%;
+    text-align: justify;
+  }
+
+  .novidades_textos h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-block: 2rem;
+  }
+
+  .novidades_input {
+    width: 90%;
+    
+  }
+
+  .novidades_input::placeholder {
+    font-size: 15px;
+  }
+
+  .novidades_button {
+    width: 90%;
+    margin-bottom: 3rem;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+}
