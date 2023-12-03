@@ -80,3 +80,40 @@
   font-size: var(--normal-font);
   cursor: pointer;
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .header__container {
+    height: 400px;
+    position: relative;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+  }
+ 
+  .nav__container {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+    
+  }
+  .logo__class {
+    width: 150px;
+    padding-bottom: 2rem;
+  }
+
+  .nav__container ul {
+    display: block;
+    text-align: center;
+    margin-block: 0;
+
+
+  }
+
+  .nav__container div {
+    margin-block: 0;
+  }
+
+  
+}

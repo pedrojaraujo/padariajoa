@@ -43,3 +43,24 @@
   text-decoration: none;
   padding: 15px;
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .banner__container {
+    height: 39rem;
+  }
+
+  .banner__container div {
+    width: 80%;
+    margin: auto;
+  }
+
+  .banner__container h2 {
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: 46px;
+    color: var(--white);
+    margin-bottom: 100px;
+  }
+  
+}
