@@ -8,23 +8,21 @@ function reposicaoElementos() {
     );
 
     const aboutPicture = document.querySelector(".about__picture");
-    const textAbout = document.querySelector(
-      ".titex__about__container"
-    );
+    const textAbout = document.querySelector(".titex__about__container");
 
-    if (logoContainer && listContainerNavDir) {
+    const buttonSandwich = document.querySelector(".container__sandwichMenu");
+
+    if (logoContainer && listContainerNavDir && buttonSandwich) {
       const nav = document.querySelector(".nav__container");
       nav.insertBefore(logoContainer, listContainerNavDir);
+      nav.insertBefore(buttonSandwich, listContainerNavDir);
     }
 
     if (aboutPicture && textAbout) {
       const about = document.querySelector(".container__about");
       about.insertBefore(textAbout, aboutPicture);
     }
-  } 
-
-
-  
+  }
 }
 
 window.addEventListener("load", reposicaoElementos);
