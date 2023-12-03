@@ -87,7 +87,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .header__container {
-    height: 400px;
+    height: auto;
+    transition: 0.8s;
     position: relative;
     top: 0;
     z-index: 0;
@@ -101,7 +102,7 @@
   }
   .logo__class {
     width: 150px;
-    padding-bottom: 2rem;
+    padding-block: 2rem;
   }
 
   .nav__container ul {
@@ -126,6 +127,14 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 2.8rem;
+  }
+
+  .list__container__nav__dir {
+    display: none;
+  }
+
+  .list__container__nav__esq {
+    display: none;
   }
 }
