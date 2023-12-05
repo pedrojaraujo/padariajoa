@@ -34,7 +34,11 @@ const paes = [
     url: "public/images/products/Product7.png",
     name: "Pão fermentado",
   },
-  
+  {
+    id: 8,
+    url: "public/images/products/Product8.png",
+    name: "Pão Francês",
+  },
 ];
 
 const doces = [
@@ -72,6 +76,12 @@ const doces = [
     id: 15,
     url: "public/images/products/Product15.png",
     name: "Torta",
+  },
+
+  {
+    id: 16,
+    url: "public/images/products/Product30.png",
+    name: "Paleta",
   },
 
 ];
@@ -112,6 +122,11 @@ const salgados = [
     url: "public/images/products/Product22.png",
     name: "Bolinho de Bacalhau",
   },
+  {
+    id: 23,
+    url: "public/images/products/Product31.png",
+    name: "Frango Frito",
+  },
 
 ];
 
@@ -150,6 +165,11 @@ const lanches = [
     id: 29,
     url: "public/images/products/Product29.png",
     name: "Queijo Quente",
+  },
+  {
+    id: 30,
+    url: "public/images/products/Product32.png",
+    name: "Clássico",
   },
 
 ];
