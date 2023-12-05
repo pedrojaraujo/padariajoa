@@ -77,3 +77,36 @@
     margin-bottom: 100px;
   }
 }
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+ 
+
+  .banner__container div {
+    width: 90%;
+    margin: auto;
+  }
+
+  .banner__container h2 {
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: 3.2rem;
+    color: var(--white);
+    margin-bottom: 100px;
+  }
+
+
+  .button {
+    margin-top: 30px;
+    width: 291px;
+    height: 67px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blue);
+    font-family: var(--default-font);
+    color: var(--white);
+    font-size: large;
+    text-decoration: none;
+    padding: 20px;
+  }
+}

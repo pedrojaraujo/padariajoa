@@ -161,3 +161,47 @@
   }
 
 }
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+  .container_novidades {
+    height: auto;
+    background-size: auto;
+  }
+
+  .novidades_textos {
+    width: 80%;
+    text-align: justify;
+  }
+
+  .novidades_textos h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: justify;
+    padding-block: 2rem;
+    width: 100%;
+  }
+
+  .novidades_textos p {
+    font-size: 1.1rem;
+    width: 100%;
+    white-space: inherit;
+  }
+
+  .novidades_input {
+    width: 100%;7
+    
+  }
+
+  .novidades_input::placeholder {
+    font-size: 1rem;
+  }
+
+  .novidades_button {
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+}

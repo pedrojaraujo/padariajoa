@@ -205,3 +205,41 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .header__container {
+    height: 20%;
+  }
+
+  .nav__container {
+    width: 90%;
+  }
+
+  .list__container__nav__dir {
+    width: 60%;
+  }
+
+  .list__container__nav__dir ul {
+    gap: 2rem;
+  }
+
+  .list__container__nav__dir ul li a {
+
+    font-size: 1.4rem;
+
+  }
+
+  .list__container__nav__esq {
+    width: 60%;
+  }
+
+  .list__container__nav__esq ul {
+
+    gap: 2rem;
+
+  }
+
+  .list__container__nav__esq ul li a {
+    font-size: 1.4rem;
+  }
+}

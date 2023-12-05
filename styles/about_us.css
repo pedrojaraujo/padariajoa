@@ -109,3 +109,39 @@
   }
 
 }
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+  .container__about {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .title__about {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+    font-size: var(--big-font);
+
+  }
+
+
+  .titex__about__container {
+    width: 80%;
+    height: auto;
+  }
+
+
+  .text__about {
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+  .about__picture {
+    width: 33rem;
+    height: auto;
+  }
+
+}
