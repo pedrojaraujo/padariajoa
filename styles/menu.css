@@ -121,3 +121,50 @@
     margin: auto;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+
+  .container__menu {
+    height: auto;
+    margin-top: 4rem;
+  }
+
+  .container__menu h2 {
+    font-size: 75%;
+  }
+
+  .list__container_menu {
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .list__container_menu li button {
+    text-decoration: none;
+    color: var(--brown);
+    font-size: 45%;
+    border: none;
+    background-color: transparent;
+
+  }
+
+  .container__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 2%;
+  }
+
+  .container__grid div{
+    text-align: center;
+  }
+
+  .container__grid img {
+    width: 80%;
+    margin: auto;
+  }
+}

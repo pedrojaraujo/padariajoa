@@ -61,3 +61,19 @@
     margin-bottom: 100px;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+
+  .banner__container {
+    height: 30rem;
+  }
+
+  .banner__container div {
+    width: 80%;
+  }
+
+  .banner__container h2 {
+    font-size: var(--big-font);
+    margin-bottom: 100px;
+  }
+}

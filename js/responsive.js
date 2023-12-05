@@ -1,7 +1,7 @@
 function reposicaoElementos() {
   const screenWidth = window.innerWidth;
 
-  if (screenWidth >= 320 && screenWidth <= 480) {
+  if (screenWidth >= 320 && screenWidth <= 681) {
     const logoContainer = document.querySelector(".logo__container");
     const listContainerNavDir = document.querySelector(
       ".list__container__nav__dir"
