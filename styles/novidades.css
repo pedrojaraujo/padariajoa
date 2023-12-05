@@ -87,10 +87,17 @@
   }
 
   .novidades_textos h4 {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: center;
     padding-block: 2rem;
+    width: 90%;
+  }
+
+  .novidades_textos p {
+    font-size: 0.9rem;
+    width: 90%;
+    white-space: inherit;
   }
 
   .novidades_input {
@@ -99,7 +106,7 @@
   }
 
   .novidades_input::placeholder {
-    font-size: 15px;
+    font-size: 0.6rem;
   }
 
   .novidades_button {

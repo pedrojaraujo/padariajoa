@@ -64,11 +64,11 @@
 
   .text__about {
     text-align: justify;
-    font-size: var(--normal-font);
+    font-size: 90%;
   }
   .about__picture {
-    width: 560px;
-    height: 600px;
+    width: 28rem;
+    height: auto;
   }
 
 }
