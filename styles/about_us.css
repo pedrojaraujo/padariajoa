@@ -34,6 +34,8 @@
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: var(--small-font);
+  text-align: justify;
+
 }
 
 
@@ -125,7 +127,7 @@
     margin-bottom: 2rem;
     margin-inline: auto;
     font-size: var(--big-font);
-
+    
   }
 
 
